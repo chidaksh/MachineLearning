@@ -1,0 +1,4 @@
+Score: 10.03777
+Public score: 9.71723
+
+Note: Ran it for only 1000 images due to lack of time and resources. (was having lot of power and internet issues in the campus)
