@@ -1,0 +1,229 @@
+Running on Device cuda:0
+Files already downloaded and verified
+Files already downloaded and verified
+Files already downloaded and verified
+----------------------------------------------------------------
+        Layer (type)               Output Shape         Param #
+================================================================
+            Conv2d-1         [-1, 64, 224, 224]           1,728
+       BatchNorm2d-2         [-1, 64, 224, 224]             128
+         MaxPool2d-3         [-1, 64, 112, 112]               0
+            Conv2d-4           [-1, 64, 56, 56]          36,864
+       BatchNorm2d-5           [-1, 64, 56, 56]             128
+           Dropout-6           [-1, 64, 56, 56]               0
+            Conv2d-7           [-1, 64, 56, 56]          36,864
+       BatchNorm2d-8           [-1, 64, 56, 56]             128
+            Conv2d-9           [-1, 64, 56, 56]           4,096
+      BatchNorm2d-10           [-1, 64, 56, 56]             128
+       BasicBlock-11           [-1, 64, 56, 56]               0
+           Conv2d-12           [-1, 64, 56, 56]          36,864
+      BatchNorm2d-13           [-1, 64, 56, 56]             128
+          Dropout-14           [-1, 64, 56, 56]               0
+           Conv2d-15           [-1, 64, 56, 56]          36,864
+      BatchNorm2d-16           [-1, 64, 56, 56]             128
+       BasicBlock-17           [-1, 64, 56, 56]               0
+           Conv2d-18           [-1, 64, 56, 56]          36,864
+      BatchNorm2d-19           [-1, 64, 56, 56]             128
+          Dropout-20           [-1, 64, 56, 56]               0
+           Conv2d-21           [-1, 64, 56, 56]          36,864
+      BatchNorm2d-22           [-1, 64, 56, 56]             128
+       BasicBlock-23           [-1, 64, 56, 56]               0
+           Conv2d-24          [-1, 128, 28, 28]          73,728
+      BatchNorm2d-25          [-1, 128, 28, 28]             256
+          Dropout-26          [-1, 128, 28, 28]               0
+           Conv2d-27          [-1, 128, 28, 28]         147,456
+      BatchNorm2d-28          [-1, 128, 28, 28]             256
+           Conv2d-29          [-1, 128, 28, 28]           8,192
+      BatchNorm2d-30          [-1, 128, 28, 28]             256
+       BasicBlock-31          [-1, 128, 28, 28]               0
+           Conv2d-32          [-1, 128, 28, 28]         147,456
+      BatchNorm2d-33          [-1, 128, 28, 28]             256
+          Dropout-34          [-1, 128, 28, 28]               0
+           Conv2d-35          [-1, 128, 28, 28]         147,456
+      BatchNorm2d-36          [-1, 128, 28, 28]             256
+       BasicBlock-37          [-1, 128, 28, 28]               0
+           Conv2d-38          [-1, 128, 28, 28]         147,456
+      BatchNorm2d-39          [-1, 128, 28, 28]             256
+          Dropout-40          [-1, 128, 28, 28]               0
+           Conv2d-41          [-1, 128, 28, 28]         147,456
+      BatchNorm2d-42          [-1, 128, 28, 28]             256
+       BasicBlock-43          [-1, 128, 28, 28]               0
+           Conv2d-44          [-1, 128, 28, 28]         147,456
+      BatchNorm2d-45          [-1, 128, 28, 28]             256
+          Dropout-46          [-1, 128, 28, 28]               0
+           Conv2d-47          [-1, 128, 28, 28]         147,456
+      BatchNorm2d-48          [-1, 128, 28, 28]             256
+       BasicBlock-49          [-1, 128, 28, 28]               0
+           Conv2d-50          [-1, 256, 14, 14]         294,912
+      BatchNorm2d-51          [-1, 256, 14, 14]             512
+          Dropout-52          [-1, 256, 14, 14]               0
+           Conv2d-53          [-1, 256, 14, 14]         589,824
+      BatchNorm2d-54          [-1, 256, 14, 14]             512
+           Conv2d-55          [-1, 256, 14, 14]          32,768
+      BatchNorm2d-56          [-1, 256, 14, 14]             512
+       BasicBlock-57          [-1, 256, 14, 14]               0
+           Conv2d-58          [-1, 256, 14, 14]         589,824
+      BatchNorm2d-59          [-1, 256, 14, 14]             512
+          Dropout-60          [-1, 256, 14, 14]               0
+           Conv2d-61          [-1, 256, 14, 14]         589,824
+      BatchNorm2d-62          [-1, 256, 14, 14]             512
+       BasicBlock-63          [-1, 256, 14, 14]               0
+           Conv2d-64          [-1, 256, 14, 14]         589,824
+      BatchNorm2d-65          [-1, 256, 14, 14]             512
+          Dropout-66          [-1, 256, 14, 14]               0
+           Conv2d-67          [-1, 256, 14, 14]         589,824
+      BatchNorm2d-68          [-1, 256, 14, 14]             512
+       BasicBlock-69          [-1, 256, 14, 14]               0
+           Conv2d-70          [-1, 256, 14, 14]         589,824
+      BatchNorm2d-71          [-1, 256, 14, 14]             512
+          Dropout-72          [-1, 256, 14, 14]               0
+           Conv2d-73          [-1, 256, 14, 14]         589,824
+      BatchNorm2d-74          [-1, 256, 14, 14]             512
+       BasicBlock-75          [-1, 256, 14, 14]               0
+           Conv2d-76          [-1, 256, 14, 14]         589,824
+      BatchNorm2d-77          [-1, 256, 14, 14]             512
+          Dropout-78          [-1, 256, 14, 14]               0
+           Conv2d-79          [-1, 256, 14, 14]         589,824
+      BatchNorm2d-80          [-1, 256, 14, 14]             512
+       BasicBlock-81          [-1, 256, 14, 14]               0
+           Conv2d-82          [-1, 256, 14, 14]         589,824
+      BatchNorm2d-83          [-1, 256, 14, 14]             512
+          Dropout-84          [-1, 256, 14, 14]               0
+           Conv2d-85          [-1, 256, 14, 14]         589,824
+      BatchNorm2d-86          [-1, 256, 14, 14]             512
+       BasicBlock-87          [-1, 256, 14, 14]               0
+           Conv2d-88            [-1, 512, 7, 7]       1,179,648
+      BatchNorm2d-89            [-1, 512, 7, 7]           1,024
+          Dropout-90            [-1, 512, 7, 7]               0
+           Conv2d-91            [-1, 512, 7, 7]       2,359,296
+      BatchNorm2d-92            [-1, 512, 7, 7]           1,024
+           Conv2d-93            [-1, 512, 7, 7]         131,072
+      BatchNorm2d-94            [-1, 512, 7, 7]           1,024
+       BasicBlock-95            [-1, 512, 7, 7]               0
+           Conv2d-96            [-1, 512, 7, 7]       2,359,296
+      BatchNorm2d-97            [-1, 512, 7, 7]           1,024
+          Dropout-98            [-1, 512, 7, 7]               0
+           Conv2d-99            [-1, 512, 7, 7]       2,359,296
+     BatchNorm2d-100            [-1, 512, 7, 7]           1,024
+      BasicBlock-101            [-1, 512, 7, 7]               0
+          Conv2d-102            [-1, 512, 7, 7]       2,359,296
+     BatchNorm2d-103            [-1, 512, 7, 7]           1,024
+         Dropout-104            [-1, 512, 7, 7]               0
+          Conv2d-105            [-1, 512, 7, 7]       2,359,296
+     BatchNorm2d-106            [-1, 512, 7, 7]           1,024
+      BasicBlock-107            [-1, 512, 7, 7]               0
+AdaptiveAvgPool2d-108            [-1, 512, 1, 1]               0
+          Linear-109                   [-1, 10]           5,130
+================================================================
+Total params: 21,286,346
+Trainable params: 21,286,346
+Non-trainable params: 0
+----------------------------------------------------------------
+Input size (MB): 0.57
+Forward/backward pass size (MB): 124.04
+Params size (MB): 81.20
+Estimated Total Size (MB): 205.81
+----------------------------------------------------------------
+None
+Epoch: 0/100, Train acc: 13.69, Valid acc: 14.78
+Epoch: 1/100, Train acc: 15.04, Valid acc: 16.10
+Epoch: 2/100, Train acc: 21.89, Valid acc: 23.28
+Epoch: 3/100, Train acc: 22.19, Valid acc: 23.20
+Epoch: 4/100, Train acc: 22.24, Valid acc: 22.92
+Epoch: 5/100, Train acc: 24.20, Valid acc: 25.04
+Epoch: 6/100, Train acc: 29.53, Valid acc: 30.64
+Epoch: 7/100, Train acc: 33.22, Valid acc: 34.68
+Epoch: 8/100, Train acc: 33.65, Valid acc: 33.66
+Epoch: 9/100, Train acc: 39.48, Valid acc: 40.96
+Epoch: 10/100, Train acc: 44.80, Valid acc: 45.32
+Epoch: 11/100, Train acc: 46.65, Valid acc: 47.38
+Epoch: 12/100, Train acc: 50.80, Valid acc: 51.58
+Epoch: 13/100, Train acc: 51.88, Valid acc: 53.16
+Epoch: 14/100, Train acc: 54.92, Valid acc: 56.12
+Epoch: 15/100, Train acc: 54.35, Valid acc: 55.74
+Epoch: 16/100, Train acc: 56.55, Valid acc: 57.66
+Epoch: 17/100, Train acc: 58.76, Valid acc: 60.60
+Epoch: 18/100, Train acc: 62.02, Valid acc: 63.94
+Epoch: 19/100, Train acc: 62.13, Valid acc: 63.94
+Epoch: 20/100, Train acc: 65.10, Valid acc: 66.82
+Epoch: 21/100, Train acc: 63.54, Valid acc: 65.36
+Epoch: 22/100, Train acc: 64.87, Valid acc: 66.00
+Epoch: 23/100, Train acc: 67.39, Valid acc: 68.00
+Epoch: 24/100, Train acc: 68.68, Valid acc: 70.30
+Epoch: 25/100, Train acc: 70.99, Valid acc: 72.38
+Epoch: 26/100, Train acc: 70.71, Valid acc: 71.66
+Epoch: 27/100, Train acc: 73.00, Valid acc: 73.14
+Epoch: 28/100, Train acc: 74.50, Valid acc: 74.66
+Epoch: 29/100, Train acc: 74.40, Valid acc: 73.94
+Epoch: 30/100, Train acc: 74.54, Valid acc: 74.98
+Epoch: 31/100, Train acc: 75.35, Valid acc: 75.02
+Epoch: 32/100, Train acc: 77.41, Valid acc: 77.10
+Epoch: 33/100, Train acc: 78.12, Valid acc: 77.32
+Epoch: 34/100, Train acc: 77.68, Valid acc: 76.88
+Epoch: 35/100, Train acc: 79.54, Valid acc: 78.58
+Epoch: 36/100, Train acc: 81.18, Valid acc: 80.38
+Epoch: 37/100, Train acc: 80.25, Valid acc: 79.00
+Epoch: 38/100, Train acc: 81.72, Valid acc: 80.34
+Epoch: 39/100, Train acc: 81.68, Valid acc: 80.68
+Epoch: 40/100, Train acc: 81.64, Valid acc: 80.60
+Epoch: 41/100, Train acc: 82.33, Valid acc: 80.78
+Epoch: 42/100, Train acc: 83.01, Valid acc: 81.50
+Epoch: 43/100, Train acc: 82.63, Valid acc: 81.24
+Epoch: 44/100, Train acc: 84.19, Valid acc: 82.74
+Epoch: 45/100, Train acc: 84.95, Valid acc: 83.28
+Epoch: 46/100, Train acc: 84.45, Valid acc: 82.82
+Epoch: 47/100, Train acc: 85.83, Valid acc: 84.10
+Epoch: 48/100, Train acc: 84.93, Valid acc: 83.16
+Epoch: 49/100, Train acc: 85.94, Valid acc: 83.74
+Epoch: 50/100, Train acc: 85.59, Valid acc: 83.42
+Epoch: 51/100, Train acc: 86.19, Valid acc: 84.46
+Epoch: 52/100, Train acc: 86.55, Valid acc: 84.06
+Epoch: 53/100, Train acc: 87.58, Valid acc: 84.90
+Epoch: 54/100, Train acc: 87.57, Valid acc: 85.10
+Epoch: 55/100, Train acc: 87.75, Valid acc: 85.16
+Epoch: 56/100, Train acc: 88.36, Valid acc: 85.88
+Epoch: 57/100, Train acc: 87.87, Valid acc: 85.28
+Epoch: 58/100, Train acc: 88.43, Valid acc: 85.56
+Epoch: 59/100, Train acc: 88.43, Valid acc: 85.48
+Epoch: 60/100, Train acc: 88.39, Valid acc: 85.18
+Epoch: 61/100, Train acc: 88.10, Valid acc: 85.38
+Epoch: 62/100, Train acc: 89.05, Valid acc: 85.78
+Epoch: 63/100, Train acc: 88.27, Valid acc: 85.48
+Epoch: 64/100, Train acc: 88.89, Valid acc: 85.40
+Epoch: 65/100, Train acc: 89.35, Valid acc: 85.74
+Epoch: 66/100, Train acc: 88.85, Valid acc: 85.86
+Epoch: 67/100, Train acc: 89.08, Valid acc: 85.82
+Epoch: 68/100, Train acc: 89.29, Valid acc: 85.92
+Epoch: 69/100, Train acc: 88.85, Valid acc: 85.56
+Epoch: 70/100, Train acc: 89.67, Valid acc: 86.20
+Epoch: 71/100, Train acc: 89.60, Valid acc: 86.50
+Epoch: 72/100, Train acc: 89.53, Valid acc: 86.12
+Epoch: 73/100, Train acc: 89.82, Valid acc: 86.66
+Epoch: 74/100, Train acc: 89.89, Valid acc: 86.14
+Epoch: 75/100, Train acc: 89.38, Valid acc: 86.22
+Epoch: 76/100, Train acc: 90.08, Valid acc: 86.48
+Epoch: 77/100, Train acc: 90.61, Valid acc: 86.88
+Epoch: 78/100, Train acc: 90.36, Valid acc: 86.58
+Epoch: 79/100, Train acc: 90.21, Valid acc: 86.20
+Epoch: 80/100, Train acc: 90.59, Valid acc: 86.74
+Epoch: 81/100, Train acc: 90.27, Valid acc: 86.92
+Epoch: 82/100, Train acc: 90.54, Valid acc: 87.18
+Epoch: 83/100, Train acc: 90.56, Valid acc: 86.88
+Epoch: 84/100, Train acc: 90.52, Valid acc: 86.90
+Epoch: 85/100, Train acc: 90.76, Valid acc: 87.18
+Epoch: 86/100, Train acc: 90.83, Valid acc: 87.32
+Epoch: 87/100, Train acc: 90.68, Valid acc: 86.84
+Epoch: 88/100, Train acc: 90.82, Valid acc: 87.00
+Epoch: 89/100, Train acc: 90.24, Valid acc: 86.66
+Epoch: 90/100, Train acc: 90.84, Valid acc: 87.24
+Epoch: 91/100, Train acc: 90.72, Valid acc: 86.94
+Epoch: 92/100, Train acc: 90.88, Valid acc: 86.96
+Epoch: 93/100, Train acc: 91.06, Valid acc: 87.26
+Epoch: 94/100, Train acc: 91.06, Valid acc: 87.10
+Epoch: 95/100, Train acc: 90.80, Valid acc: 86.94
+Epoch: 96/100, Train acc: 90.48, Valid acc: 86.60
+Epoch: 97/100, Train acc: 91.15, Valid acc: 87.28
+Epoch: 98/100, Train acc: 90.91, Valid acc: 87.04
+Epoch: 99/100, Train acc: 91.30, Valid acc: 87.34
+Valid acc: 87.34, Train acc: 91.41
+Total Time taken to train ResNetDropOut is 13638.758113145828 seconds

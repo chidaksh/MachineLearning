@@ -1,0 +1,165 @@
+Running on Device cuda:0
+782 79 8
+----------------------------------------------------------------
+        Layer (type)               Output Shape         Param #
+================================================================
+            Conv2d-1         [-1, 64, 224, 224]           1,728
+       BatchNorm2d-2         [-1, 64, 224, 224]             128
+         MaxPool2d-3         [-1, 64, 112, 112]               0
+            Conv2d-4           [-1, 64, 56, 56]          36,864
+       BatchNorm2d-5           [-1, 64, 56, 56]             128
+            Conv2d-6           [-1, 64, 56, 56]          36,864
+       BatchNorm2d-7           [-1, 64, 56, 56]             128
+            Conv2d-8           [-1, 64, 56, 56]           4,096
+       BatchNorm2d-9           [-1, 64, 56, 56]             128
+       BasicBlock-10           [-1, 64, 56, 56]               0
+           Conv2d-11           [-1, 64, 56, 56]          36,864
+      BatchNorm2d-12           [-1, 64, 56, 56]             128
+           Conv2d-13           [-1, 64, 56, 56]          36,864
+      BatchNorm2d-14           [-1, 64, 56, 56]             128
+       BasicBlock-15           [-1, 64, 56, 56]               0
+           Conv2d-16           [-1, 64, 56, 56]          36,864
+      BatchNorm2d-17           [-1, 64, 56, 56]             128
+           Conv2d-18           [-1, 64, 56, 56]          36,864
+      BatchNorm2d-19           [-1, 64, 56, 56]             128
+       BasicBlock-20           [-1, 64, 56, 56]               0
+           Conv2d-21          [-1, 128, 28, 28]          73,728
+      BatchNorm2d-22          [-1, 128, 28, 28]             256
+           Conv2d-23          [-1, 128, 28, 28]         147,456
+      BatchNorm2d-24          [-1, 128, 28, 28]             256
+           Conv2d-25          [-1, 128, 28, 28]           8,192
+      BatchNorm2d-26          [-1, 128, 28, 28]             256
+       BasicBlock-27          [-1, 128, 28, 28]               0
+           Conv2d-28          [-1, 128, 28, 28]         147,456
+      BatchNorm2d-29          [-1, 128, 28, 28]             256
+           Conv2d-30          [-1, 128, 28, 28]         147,456
+      BatchNorm2d-31          [-1, 128, 28, 28]             256
+       BasicBlock-32          [-1, 128, 28, 28]               0
+           Conv2d-33          [-1, 128, 28, 28]         147,456
+      BatchNorm2d-34          [-1, 128, 28, 28]             256
+           Conv2d-35          [-1, 128, 28, 28]         147,456
+      BatchNorm2d-36          [-1, 128, 28, 28]             256
+       BasicBlock-37          [-1, 128, 28, 28]               0
+           Conv2d-38          [-1, 128, 28, 28]         147,456
+      BatchNorm2d-39          [-1, 128, 28, 28]             256
+           Conv2d-40          [-1, 128, 28, 28]         147,456
+      BatchNorm2d-41          [-1, 128, 28, 28]             256
+       BasicBlock-42          [-1, 128, 28, 28]               0
+           Conv2d-43          [-1, 256, 14, 14]         294,912
+      BatchNorm2d-44          [-1, 256, 14, 14]             512
+           Conv2d-45          [-1, 256, 14, 14]         589,824
+      BatchNorm2d-46          [-1, 256, 14, 14]             512
+           Conv2d-47          [-1, 256, 14, 14]          32,768
+      BatchNorm2d-48          [-1, 256, 14, 14]             512
+       BasicBlock-49          [-1, 256, 14, 14]               0
+           Conv2d-50          [-1, 256, 14, 14]         589,824
+      BatchNorm2d-51          [-1, 256, 14, 14]             512
+           Conv2d-52          [-1, 256, 14, 14]         589,824
+      BatchNorm2d-53          [-1, 256, 14, 14]             512
+       BasicBlock-54          [-1, 256, 14, 14]               0
+           Conv2d-55          [-1, 256, 14, 14]         589,824
+      BatchNorm2d-56          [-1, 256, 14, 14]             512
+           Conv2d-57          [-1, 256, 14, 14]         589,824
+      BatchNorm2d-58          [-1, 256, 14, 14]             512
+       BasicBlock-59          [-1, 256, 14, 14]               0
+           Conv2d-60          [-1, 256, 14, 14]         589,824
+      BatchNorm2d-61          [-1, 256, 14, 14]             512
+           Conv2d-62          [-1, 256, 14, 14]         589,824
+      BatchNorm2d-63          [-1, 256, 14, 14]             512
+       BasicBlock-64          [-1, 256, 14, 14]               0
+           Conv2d-65          [-1, 256, 14, 14]         589,824
+      BatchNorm2d-66          [-1, 256, 14, 14]             512
+           Conv2d-67          [-1, 256, 14, 14]         589,824
+      BatchNorm2d-68          [-1, 256, 14, 14]             512
+       BasicBlock-69          [-1, 256, 14, 14]               0
+           Conv2d-70          [-1, 256, 14, 14]         589,824
+      BatchNorm2d-71          [-1, 256, 14, 14]             512
+           Conv2d-72          [-1, 256, 14, 14]         589,824
+      BatchNorm2d-73          [-1, 256, 14, 14]             512
+       BasicBlock-74          [-1, 256, 14, 14]               0
+           Conv2d-75            [-1, 512, 7, 7]       1,179,648
+      BatchNorm2d-76            [-1, 512, 7, 7]           1,024
+           Conv2d-77            [-1, 512, 7, 7]       2,359,296
+      BatchNorm2d-78            [-1, 512, 7, 7]           1,024
+           Conv2d-79            [-1, 512, 7, 7]         131,072
+      BatchNorm2d-80            [-1, 512, 7, 7]           1,024
+       BasicBlock-81            [-1, 512, 7, 7]               0
+           Conv2d-82            [-1, 512, 7, 7]       2,359,296
+      BatchNorm2d-83            [-1, 512, 7, 7]           1,024
+           Conv2d-84            [-1, 512, 7, 7]       2,359,296
+      BatchNorm2d-85            [-1, 512, 7, 7]           1,024
+       BasicBlock-86            [-1, 512, 7, 7]               0
+           Conv2d-87            [-1, 512, 7, 7]       2,359,296
+      BatchNorm2d-88            [-1, 512, 7, 7]           1,024
+           Conv2d-89            [-1, 512, 7, 7]       2,359,296
+      BatchNorm2d-90            [-1, 512, 7, 7]           1,024
+       BasicBlock-91            [-1, 512, 7, 7]               0
+AdaptiveAvgPool2d-92            [-1, 512, 1, 1]               0
+           Linear-93                  [-1, 200]         102,600
+================================================================
+Total params: 21,383,816
+Trainable params: 21,383,816
+Non-trainable params: 0
+----------------------------------------------------------------
+Input size (MB): 0.57
+Forward/backward pass size (MB): 113.51
+Params size (MB): 81.57
+Estimated Total Size (MB): 195.66
+----------------------------------------------------------------
+None
+Initial Loss is 5.688774585723877
+Epoch: 0/200, Train acc: 6.20, Valid acc: 6.48
+Epoch: 1/200, Train acc: 10.43, Valid acc: 11.01
+Epoch: 2/200, Train acc: 13.86, Valid acc: 13.81
+Epoch: 3/200, Train acc: 16.50, Valid acc: 16.78
+Epoch: 4/200, Train acc: 18.64, Valid acc: 18.36
+Epoch: 5/200, Train acc: 20.86, Valid acc: 20.65
+Epoch: 6/200, Train acc: 22.46, Valid acc: 21.09
+Epoch: 7/200, Train acc: 24.42, Valid acc: 23.54
+Epoch: 8/200, Train acc: 25.79, Valid acc: 24.24
+Epoch: 9/200, Train acc: 27.61, Valid acc: 25.18
+Epoch: 10/200, Train acc: 28.55, Valid acc: 26.12
+Epoch: 11/200, Train acc: 29.64, Valid acc: 26.84
+Epoch: 12/200, Train acc: 30.27, Valid acc: 26.82
+Epoch: 13/200, Train acc: 32.27, Valid acc: 28.32
+Epoch: 14/200, Train acc: 34.34, Valid acc: 28.86
+Epoch: 15/200, Train acc: 36.22, Valid acc: 29.58
+Epoch: 16/200, Train acc: 37.61, Valid acc: 30.36
+Epoch: 17/200, Train acc: 37.41, Valid acc: 29.92
+Epoch: 18/200, Train acc: 39.55, Valid acc: 31.61
+Epoch: 19/200, Train acc: 40.04, Valid acc: 31.45
+Epoch: 20/200, Train acc: 41.23, Valid acc: 31.60
+Epoch: 21/200, Train acc: 43.23, Valid acc: 32.08
+Epoch: 22/200, Train acc: 43.22, Valid acc: 31.83
+Epoch: 23/200, Train acc: 45.03, Valid acc: 32.03
+Epoch: 24/200, Train acc: 46.37, Valid acc: 32.94
+Epoch: 25/200, Train acc: 46.96, Valid acc: 32.46
+Epoch: 26/200, Train acc: 48.51, Valid acc: 33.12
+Epoch: 27/200, Train acc: 49.57, Valid acc: 32.86
+Epoch: 28/200, Train acc: 51.46, Valid acc: 33.09
+Epoch: 29/200, Train acc: 52.99, Valid acc: 33.71
+Epoch: 30/200, Train acc: 58.94, Valid acc: 34.40
+Epoch: 31/200, Train acc: 60.24, Valid acc: 34.20
+Epoch: 32/200, Train acc: 61.48, Valid acc: 34.46
+Epoch: 33/200, Train acc: 62.46, Valid acc: 34.42
+Epoch: 34/200, Train acc: 63.47, Valid acc: 33.99
+Epoch: 35/200, Train acc: 64.64, Valid acc: 34.26
+Epoch: 36/200, Train acc: 68.45, Valid acc: 34.84
+Epoch: 37/200, Train acc: 69.35, Valid acc: 34.70
+Epoch: 38/200, Train acc: 70.11, Valid acc: 34.41
+Epoch: 39/200, Train acc: 70.97, Valid acc: 34.09
+Epoch: 40/200, Train acc: 71.59, Valid acc: 34.51
+Epoch: 41/200, Train acc: 73.19, Valid acc: 34.24
+Epoch: 42/200, Train acc: 73.41, Valid acc: 34.51
+Epoch: 43/200, Train acc: 74.29, Valid acc: 34.29
+Epoch: 44/200, Train acc: 74.59, Valid acc: 34.17
+Epoch: 45/200, Train acc: 74.99, Valid acc: 33.99
+Epoch: 46/200, Train acc: 75.45, Valid acc: 34.37
+Epoch: 47/200, Train acc: 75.87, Valid acc: 34.30
+Epoch: 48/200, Train acc: 76.35, Valid acc: 33.94
+Epoch: 49/200, Train acc: 76.41, Valid acc: 34.20
+Epoch: 50/200, Train acc: 76.39, Valid acc: 33.92
+Epoch: 51/200, Train acc: 76.95, Valid acc: 33.89
+Early stopping
+Train acc: 76.86, Valid acc: 33.89
+Total Time taken to train PlaneResNet is 3318.4578704833984 seconds

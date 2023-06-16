@@ -1,0 +1,231 @@
+Running on Device cuda:0
+Files already downloaded and verified
+Files already downloaded and verified
+Files already downloaded and verified
+----------------------------------------------------------------
+        Layer (type)               Output Shape         Param #
+================================================================
+            Conv2d-1            [-1, 6, 28, 28]             456
+              Tanh-2            [-1, 6, 28, 28]               0
+         AvgPool2d-3            [-1, 6, 14, 14]               0
+            Conv2d-4           [-1, 16, 10, 10]           2,416
+              Tanh-5           [-1, 16, 10, 10]               0
+         AvgPool2d-6             [-1, 16, 5, 5]               0
+            Linear-7                  [-1, 120]          48,120
+              Tanh-8                  [-1, 120]               0
+            Linear-9                   [-1, 84]          10,164
+             Tanh-10                   [-1, 84]               0
+           Linear-11                   [-1, 10]             850
+================================================================
+Total params: 62,006
+Trainable params: 62,006
+Non-trainable params: 0
+----------------------------------------------------------------
+Input size (MB): 0.01
+Forward/backward pass size (MB): 0.11
+Params size (MB): 0.24
+Estimated Total Size (MB): 0.36
+----------------------------------------------------------------
+None
+Epoch: 0/200, Train acc: 32.14, Valid acc: 32.74
+Epoch: 1/200, Train acc: 35.90, Valid acc: 35.54
+Epoch: 2/200, Train acc: 37.52, Valid acc: 36.86
+Epoch: 3/200, Train acc: 38.80, Valid acc: 37.96
+Epoch: 4/200, Train acc: 39.62, Valid acc: 39.00
+Epoch: 5/200, Train acc: 40.39, Valid acc: 40.04
+Epoch: 6/200, Train acc: 41.26, Valid acc: 40.54
+Epoch: 7/200, Train acc: 42.13, Valid acc: 41.30
+Epoch: 8/200, Train acc: 42.81, Valid acc: 41.86
+Epoch: 9/200, Train acc: 43.52, Valid acc: 42.20
+Epoch: 10/200, Train acc: 44.20, Valid acc: 43.26
+Epoch: 11/200, Train acc: 45.03, Valid acc: 43.88
+Epoch: 12/200, Train acc: 45.66, Valid acc: 44.84
+Epoch: 13/200, Train acc: 46.28, Valid acc: 45.18
+Epoch: 14/200, Train acc: 46.56, Valid acc: 45.20
+Epoch: 15/200, Train acc: 47.30, Valid acc: 46.26
+Epoch: 16/200, Train acc: 47.74, Valid acc: 46.28
+Epoch: 17/200, Train acc: 47.80, Valid acc: 46.92
+Epoch: 18/200, Train acc: 48.73, Valid acc: 47.98
+Epoch: 19/200, Train acc: 49.18, Valid acc: 47.72
+Epoch: 20/200, Train acc: 49.67, Valid acc: 47.72
+Epoch: 21/200, Train acc: 49.96, Valid acc: 48.74
+Epoch: 22/200, Train acc: 50.54, Valid acc: 49.22
+Epoch: 23/200, Train acc: 50.62, Valid acc: 49.20
+Epoch: 24/200, Train acc: 51.19, Valid acc: 49.66
+Epoch: 25/200, Train acc: 51.52, Valid acc: 50.22
+Epoch: 26/200, Train acc: 51.85, Valid acc: 50.20
+Epoch: 27/200, Train acc: 52.02, Valid acc: 50.38
+Epoch: 28/200, Train acc: 52.50, Valid acc: 50.64
+Epoch: 29/200, Train acc: 52.74, Valid acc: 51.60
+Epoch: 30/200, Train acc: 53.04, Valid acc: 51.12
+Epoch: 31/200, Train acc: 53.16, Valid acc: 50.94
+Epoch: 32/200, Train acc: 53.67, Valid acc: 51.58
+Epoch: 33/200, Train acc: 54.11, Valid acc: 51.66
+Epoch: 34/200, Train acc: 54.04, Valid acc: 51.70
+Epoch: 35/200, Train acc: 54.44, Valid acc: 52.12
+Epoch: 36/200, Train acc: 54.52, Valid acc: 52.12
+Epoch: 37/200, Train acc: 54.73, Valid acc: 52.36
+Epoch: 38/200, Train acc: 54.80, Valid acc: 52.16
+Epoch: 39/200, Train acc: 55.23, Valid acc: 52.98
+Epoch: 40/200, Train acc: 55.46, Valid acc: 52.56
+Epoch: 41/200, Train acc: 55.29, Valid acc: 52.88
+Epoch: 42/200, Train acc: 55.69, Valid acc: 53.00
+Epoch: 43/200, Train acc: 56.19, Valid acc: 53.46
+Epoch: 44/200, Train acc: 56.02, Valid acc: 53.22
+Epoch: 45/200, Train acc: 56.36, Valid acc: 53.72
+Epoch: 46/200, Train acc: 56.61, Valid acc: 53.82
+Epoch: 47/200, Train acc: 56.60, Valid acc: 53.64
+Epoch: 48/200, Train acc: 56.89, Valid acc: 54.08
+Epoch: 49/200, Train acc: 57.10, Valid acc: 54.04
+Epoch: 50/200, Train acc: 57.13, Valid acc: 53.90
+Epoch: 51/200, Train acc: 57.49, Valid acc: 54.12
+Epoch: 52/200, Train acc: 57.64, Valid acc: 53.98
+Epoch: 53/200, Train acc: 57.86, Valid acc: 54.28
+Epoch: 54/200, Train acc: 58.04, Valid acc: 54.68
+Epoch: 55/200, Train acc: 58.07, Valid acc: 54.54
+Epoch: 56/200, Train acc: 58.10, Valid acc: 54.46
+Epoch: 57/200, Train acc: 58.53, Valid acc: 54.98
+Epoch: 58/200, Train acc: 58.04, Valid acc: 54.44
+Epoch: 59/200, Train acc: 58.79, Valid acc: 54.86
+Epoch: 60/200, Train acc: 58.94, Valid acc: 55.42
+Epoch: 61/200, Train acc: 59.12, Valid acc: 55.46
+Epoch: 62/200, Train acc: 59.21, Valid acc: 54.96
+Epoch: 63/200, Train acc: 59.18, Valid acc: 55.40
+Epoch: 64/200, Train acc: 59.48, Valid acc: 55.44
+Epoch: 65/200, Train acc: 59.61, Valid acc: 54.96
+Epoch: 66/200, Train acc: 59.63, Valid acc: 55.78
+Epoch: 67/200, Train acc: 59.78, Valid acc: 55.24
+Epoch: 68/200, Train acc: 59.97, Valid acc: 55.68
+Epoch: 69/200, Train acc: 60.27, Valid acc: 55.36
+Epoch: 70/200, Train acc: 60.22, Valid acc: 55.86
+Epoch: 71/200, Train acc: 60.50, Valid acc: 55.84
+Epoch: 72/200, Train acc: 60.62, Valid acc: 56.02
+Epoch: 73/200, Train acc: 60.65, Valid acc: 56.28
+Epoch: 74/200, Train acc: 60.70, Valid acc: 56.00
+Epoch: 75/200, Train acc: 60.59, Valid acc: 56.42
+Epoch: 76/200, Train acc: 61.04, Valid acc: 55.70
+Epoch: 77/200, Train acc: 61.32, Valid acc: 56.30
+Epoch: 78/200, Train acc: 61.39, Valid acc: 56.16
+Epoch: 79/200, Train acc: 61.45, Valid acc: 56.14
+Epoch: 80/200, Train acc: 61.59, Valid acc: 56.46
+Epoch: 81/200, Train acc: 61.69, Valid acc: 56.74
+Epoch: 82/200, Train acc: 61.69, Valid acc: 56.10
+Epoch: 83/200, Train acc: 62.08, Valid acc: 56.62
+Epoch: 84/200, Train acc: 62.09, Valid acc: 56.70
+Epoch: 85/200, Train acc: 62.27, Valid acc: 56.64
+Epoch: 86/200, Train acc: 62.42, Valid acc: 56.96
+Epoch: 87/200, Train acc: 62.42, Valid acc: 56.72
+Epoch: 88/200, Train acc: 62.72, Valid acc: 57.04
+Epoch: 89/200, Train acc: 62.83, Valid acc: 57.52
+Epoch: 90/200, Train acc: 62.83, Valid acc: 57.32
+Epoch: 91/200, Train acc: 62.92, Valid acc: 57.14
+Epoch: 92/200, Train acc: 63.00, Valid acc: 56.90
+Epoch: 93/200, Train acc: 63.18, Valid acc: 57.02
+Epoch: 94/200, Train acc: 63.05, Valid acc: 56.94
+Epoch: 95/200, Train acc: 63.45, Valid acc: 57.60
+Epoch: 96/200, Train acc: 63.51, Valid acc: 57.48
+Epoch: 97/200, Train acc: 63.63, Valid acc: 57.22
+Epoch: 98/200, Train acc: 63.70, Valid acc: 57.14
+Epoch: 99/200, Train acc: 63.83, Valid acc: 57.54
+Epoch: 100/200, Train acc: 63.89, Valid acc: 57.30
+Epoch: 101/200, Train acc: 63.98, Valid acc: 57.26
+Epoch: 102/200, Train acc: 64.26, Valid acc: 57.72
+Epoch: 103/200, Train acc: 64.07, Valid acc: 57.48
+Epoch: 104/200, Train acc: 64.29, Valid acc: 57.98
+Epoch: 105/200, Train acc: 64.41, Valid acc: 57.78
+Epoch: 106/200, Train acc: 64.58, Valid acc: 57.68
+Epoch: 107/200, Train acc: 64.60, Valid acc: 57.88
+Epoch: 108/200, Train acc: 64.36, Valid acc: 57.68
+Epoch: 109/200, Train acc: 65.02, Valid acc: 57.86
+Epoch: 110/200, Train acc: 64.78, Valid acc: 58.00
+Epoch: 111/200, Train acc: 64.98, Valid acc: 58.16
+Epoch: 112/200, Train acc: 65.08, Valid acc: 58.24
+Epoch: 113/200, Train acc: 65.32, Valid acc: 57.98
+Epoch: 114/200, Train acc: 65.44, Valid acc: 57.84
+Epoch: 115/200, Train acc: 65.30, Valid acc: 57.62
+Epoch: 116/200, Train acc: 65.46, Valid acc: 58.26
+Epoch: 117/200, Train acc: 65.57, Valid acc: 58.02
+Epoch: 118/200, Train acc: 65.66, Valid acc: 58.60
+Epoch: 119/200, Train acc: 65.64, Valid acc: 58.06
+Epoch: 120/200, Train acc: 65.86, Valid acc: 58.00
+Epoch: 121/200, Train acc: 65.98, Valid acc: 58.48
+Epoch: 122/200, Train acc: 66.07, Valid acc: 58.34
+Epoch: 123/200, Train acc: 66.00, Valid acc: 58.00
+Epoch: 124/200, Train acc: 66.17, Valid acc: 58.30
+Epoch: 125/200, Train acc: 66.07, Valid acc: 58.20
+Epoch: 126/200, Train acc: 66.29, Valid acc: 58.38
+Epoch: 127/200, Train acc: 66.31, Valid acc: 58.32
+Epoch: 128/200, Train acc: 66.51, Valid acc: 58.80
+Epoch: 129/200, Train acc: 66.59, Valid acc: 58.66
+Epoch: 130/200, Train acc: 66.59, Valid acc: 58.30
+Epoch: 131/200, Train acc: 66.79, Valid acc: 58.58
+Epoch: 132/200, Train acc: 66.66, Valid acc: 58.68
+Epoch: 133/200, Train acc: 66.57, Valid acc: 58.40
+Epoch: 134/200, Train acc: 66.83, Valid acc: 58.10
+Epoch: 135/200, Train acc: 66.88, Valid acc: 58.24
+Epoch: 136/200, Train acc: 67.29, Valid acc: 58.52
+Epoch: 137/200, Train acc: 67.03, Valid acc: 58.18
+Epoch: 138/200, Train acc: 67.36, Valid acc: 59.00
+Epoch: 139/200, Train acc: 67.15, Valid acc: 58.58
+Epoch: 140/200, Train acc: 67.26, Valid acc: 58.66
+Epoch: 141/200, Train acc: 67.68, Valid acc: 58.80
+Epoch: 142/200, Train acc: 67.48, Valid acc: 58.56
+Epoch: 143/200, Train acc: 67.68, Valid acc: 58.80
+Epoch: 144/200, Train acc: 68.01, Valid acc: 59.04
+Epoch: 145/200, Train acc: 67.71, Valid acc: 58.62
+Epoch: 146/200, Train acc: 67.88, Valid acc: 58.76
+Epoch: 147/200, Train acc: 67.98, Valid acc: 58.68
+Epoch: 148/200, Train acc: 68.18, Valid acc: 59.30
+Epoch: 149/200, Train acc: 68.05, Valid acc: 58.92
+Epoch: 150/200, Train acc: 68.33, Valid acc: 58.96
+Epoch: 151/200, Train acc: 68.34, Valid acc: 58.76
+Epoch: 152/200, Train acc: 68.18, Valid acc: 58.64
+Epoch: 153/200, Train acc: 68.46, Valid acc: 59.02
+Epoch: 154/200, Train acc: 68.48, Valid acc: 59.10
+Epoch: 155/200, Train acc: 68.66, Valid acc: 59.44
+Epoch: 156/200, Train acc: 68.50, Valid acc: 58.80
+Epoch: 157/200, Train acc: 68.61, Valid acc: 58.86
+Epoch: 158/200, Train acc: 68.73, Valid acc: 58.64
+Epoch: 159/200, Train acc: 69.04, Valid acc: 59.00
+Epoch: 160/200, Train acc: 69.05, Valid acc: 58.92
+Epoch: 161/200, Train acc: 69.02, Valid acc: 59.16
+Epoch: 162/200, Train acc: 69.03, Valid acc: 59.16
+Epoch: 163/200, Train acc: 69.18, Valid acc: 59.08
+Epoch: 164/200, Train acc: 69.18, Valid acc: 59.30
+Epoch: 165/200, Train acc: 69.31, Valid acc: 58.72
+Epoch: 166/200, Train acc: 69.39, Valid acc: 59.18
+Epoch: 167/200, Train acc: 69.70, Valid acc: 59.04
+Epoch: 168/200, Train acc: 69.42, Valid acc: 59.34
+Epoch: 169/200, Train acc: 69.66, Valid acc: 58.60
+Epoch: 170/200, Train acc: 69.73, Valid acc: 59.30
+Epoch: 171/200, Train acc: 69.84, Valid acc: 59.30
+Epoch: 172/200, Train acc: 69.72, Valid acc: 58.90
+Epoch: 173/200, Train acc: 69.84, Valid acc: 59.02
+Epoch: 174/200, Train acc: 69.70, Valid acc: 59.24
+Epoch: 175/200, Train acc: 69.96, Valid acc: 59.02
+Epoch: 176/200, Train acc: 70.14, Valid acc: 59.22
+Epoch: 177/200, Train acc: 70.14, Valid acc: 59.40
+Epoch: 178/200, Train acc: 70.29, Valid acc: 59.10
+Epoch: 179/200, Train acc: 70.13, Valid acc: 59.12
+Epoch: 180/200, Train acc: 70.22, Valid acc: 59.10
+Epoch: 181/200, Train acc: 70.58, Valid acc: 59.20
+Epoch: 182/200, Train acc: 70.54, Valid acc: 58.96
+Epoch: 183/200, Train acc: 70.46, Valid acc: 59.52
+Epoch: 184/200, Train acc: 70.70, Valid acc: 58.86
+Epoch: 185/200, Train acc: 70.68, Valid acc: 58.96
+Epoch: 186/200, Train acc: 70.42, Valid acc: 59.06
+Epoch: 187/200, Train acc: 70.66, Valid acc: 59.22
+Epoch: 188/200, Train acc: 70.90, Valid acc: 58.90
+Epoch: 189/200, Train acc: 70.89, Valid acc: 58.90
+Epoch: 190/200, Train acc: 70.96, Valid acc: 59.74
+Epoch: 191/200, Train acc: 71.02, Valid acc: 59.46
+Epoch: 192/200, Train acc: 71.10, Valid acc: 59.02
+Epoch: 193/200, Train acc: 71.02, Valid acc: 59.12
+Epoch: 194/200, Train acc: 71.04, Valid acc: 59.28
+Epoch: 195/200, Train acc: 71.02, Valid acc: 59.06
+Epoch: 196/200, Train acc: 71.24, Valid acc: 59.72
+Epoch: 197/200, Train acc: 71.44, Valid acc: 59.54
+Epoch: 198/200, Train acc: 71.44, Valid acc: 59.72
+Epoch: 199/200, Train acc: 71.60, Valid acc: 59.48
+Test acc: 59.43, Valid acc: 59.74, Train acc: 70.96
+Total Time taken to train LeNetL2Reg is 3071.0957839488983 seconds
