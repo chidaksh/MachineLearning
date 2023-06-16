@@ -1,0 +1,9 @@
+accuracy for the given 1 of noise after 150 epochs is 100.0
+accuracy for the given 2 of noise after 150 epochs is 100.0
+accuracy for the given 3 of noise after 150 epochs is 100.0
+accuracy for the given 4 of noise after 150 epochs is 100.0
+accuracy for the given 5 of noise after 150 epochs is 100.0
+accuracy for the given 6 of noise after 150 epochs is 100.0
+accuracy for the given 7 of noise after 150 epochs is 100.0
+accuracy for the given 8 of noise after 150 epochs is 100.0
+accuracy for the given 9 of noise after 150 epochs is 100.0

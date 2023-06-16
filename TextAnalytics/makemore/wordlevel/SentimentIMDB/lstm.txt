@@ -1,0 +1,81 @@
+                                              review sentiment
+0  One of the other reviewers has mentioned that ...  positive
+1  A wonderful little production. <br /><br />The...  positive
+2  I thought this was a wonderful way to spend ti...  positive
+3  Basically there's a family where a little boy ...  negative
+4  Petter Mattei's "Love in the Time of Money" is...  positive
+shape of train data is (40000,)
+shape of test data is (10000,)
+Length of vocabulary is 1000
+GPU is available
+SentimentRNN(
+  (embedding): Embedding(1001, 64)
+  (lstm): LSTM(64, 256, num_layers=2, batch_first=True)
+  (dropout): Dropout(p=0.3, inplace=False)
+  (fc): Linear(in_features=256, out_features=1, bias=True)
+  (actv): Tanh()
+  (sig): Sigmoid()
+)
+Epoch 0
+Intial train loss : 0.693153 and Initial validation loss: 0.693153
+Intial train Accuracy : 50.0 and Initial validation Accuracy: 50.0
+==================================================
+Epoch 1
+train_loss : 0.5985530975461006 val_loss : 0.44390686266124246
+train_accuracy : 63.2 val_accuracy : 80.42
+Validation loss decreased (0.693153 --> 0.443907).  Saving model ...
+==================================================
+Epoch 2
+train_loss : 0.3645269681699574 val_loss : 0.33851151704788207
+train_accuracy : 84.50999999999999 val_accuracy : 85.37
+Validation loss decreased (0.443907 --> 0.338512).  Saving model ...
+==================================================
+Epoch 3
+train_loss : 0.33138974810019134 val_loss : 0.351861813403666
+train_accuracy : 85.77 val_accuracy : 85.34
+==================================================
+Epoch 4
+train_loss : 0.3214389143697918 val_loss : 0.3360482241213322
+train_accuracy : 86.45 val_accuracy : 85.63
+Validation loss decreased (0.338512 --> 0.336048).  Saving model ...
+==================================================
+Epoch 5
+train_loss : 0.31436883568763735 val_loss : 0.3331141206994653
+train_accuracy : 86.83 val_accuracy : 86.08
+Validation loss decreased (0.336048 --> 0.333114).  Saving model ...
+==================================================
+Epoch 6
+train_loss : 0.30950183583423496 val_loss : 0.3243173485249281
+train_accuracy : 87.105 val_accuracy : 86.3
+Validation loss decreased (0.333114 --> 0.324317).  Saving model ...
+==================================================
+Epoch 7
+train_loss : 0.3039207927882671 val_loss : 0.32208077698945997
+train_accuracy : 87.235 val_accuracy : 86.31
+Validation loss decreased (0.324317 --> 0.322081).  Saving model ...
+==================================================
+Epoch 8
+train_loss : 0.2967053606547415 val_loss : 0.31820332996547224
+train_accuracy : 87.6575 val_accuracy : 86.3
+Validation loss decreased (0.322081 --> 0.318203).  Saving model ...
+==================================================
+Epoch 9
+train_loss : 0.2917405352834612 val_loss : 0.32448327001184224
+train_accuracy : 87.5825 val_accuracy : 86.29
+==================================================
+Epoch 10
+train_loss : 0.27968629953451457 val_loss : 0.3407068155705929
+train_accuracy : 88.4425 val_accuracy : 86.41
+==================================================
+Epoch 11
+train_loss : 0.274637023601681 val_loss : 0.3448794998973608
+train_accuracy : 88.705 val_accuracy : 86.1
+==================================================
+Epoch 12
+train_loss : 0.2747945398371667 val_loss : 0.3384793531522155
+train_accuracy : 88.625 val_accuracy : 86.27
+==================================================
+Epoch 13
+train_loss : 0.2644195034634322 val_loss : 0.3411238015815616
+train_accuracy : 89.1125 val_accuracy : 86.2
+==================================================
